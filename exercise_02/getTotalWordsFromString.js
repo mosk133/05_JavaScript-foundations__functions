@@ -10,9 +10,7 @@
  * @returns number - The total number of words in the string.
  */
 const getTotalWordsFromString = function (sentence){
-    const result = sentence.trim().split(/\s+/).filter(sentence => sentence.length > 0).length;
-    
-    return result
+    return sentence.split(/\s+/).length;
 }
 
 export default getTotalWordsFromString;

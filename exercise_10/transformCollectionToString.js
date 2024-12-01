@@ -17,3 +17,17 @@
  * input: []
  * output: ""
  */
+
+/**
+ * 
+ * @param {array} collection - The input array.
+ * @returns string - A string representation of the array or an empty string if it's empty.
+ */
+function transformCollectionToString(collection) {
+    if (collection.length > 0) {
+        return collection.join(' | ');
+    }
+    return "";
+}
+
+export default transformCollectionToString;

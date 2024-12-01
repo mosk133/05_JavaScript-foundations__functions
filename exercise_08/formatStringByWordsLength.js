@@ -16,3 +16,17 @@
  * CASE #2 * input: "This is short one."
  * output: "this is short one."
  */
+
+/**
+ * 
+ * @param {string} sentence - The input sentence.
+ * @returns string - The original sentence or the uppercase version.
+ */
+function formatStringByWordsLength(sentence){
+    if (sentence.split(/\s+/).length >5){
+        return sentence.toUpperCase();
+    }
+    return sentence.toLowerCase();
+}
+
+export default formatStringByWordsLength;

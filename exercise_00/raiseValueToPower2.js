@@ -14,9 +14,9 @@
  * @returns number
  */
 const raiseValueToPower2 = function (base) {
-  const result = Math.pow(base, 2);
+    const result = Math.pow(base, 2);
 
-  return result;
+    return result;
 };
 
 export default raiseValueToPower2;

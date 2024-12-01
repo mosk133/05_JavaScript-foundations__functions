@@ -19,3 +19,21 @@
  * random (generated in function): 40
  * output: "Sum with value 70 isd left in 30 from number 100"
  */
+
+/**
+ * 
+ * @param {number} value - The input number to sum with the random number.
+ * @returns string - Message indicating whether the sum exceeds or is left to reach 100.
+ */
+function getDistanceMessageFromSumTo100(value){
+    const sumValue = Math.round(Math.random() * 100) + value;
+    
+    if (sumValue > 100){
+        const exceeds = sumValue - 100;
+        return "Sum with value " +sumValue+ " exceeds in " +exceeds+ " from number 100";
+    }
+    const leftOver = 100 - sumValue;
+    return "Sum with value " +sumValue+ " is left in " +leftOver+ " from number 100";
+}
+
+export default getDistanceMessageFromSumTo100;

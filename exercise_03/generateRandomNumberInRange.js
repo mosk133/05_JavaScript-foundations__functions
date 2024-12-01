@@ -10,9 +10,7 @@
  * @returns - A randomly generated whole number between 0 and the limit
  */
 const generateRandomNumberInRange = function (limitNumber) {
-    let randomNumber = Math.round (Math.random() * limitNumber);
-
-    return randomNumber;
+    return Math.round (Math.random() * limitNumber);
 };
 
 export default generateRandomNumberInRange;
