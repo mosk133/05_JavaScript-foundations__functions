@@ -21,7 +21,7 @@
  */
 
 /**
- * 
+ * Computes the sum of the input value and a random number.
  * @param {number} value - The input number to sum with the random number.
  * @returns string - Message indicating whether the sum exceeds or is left to reach 100.
  */

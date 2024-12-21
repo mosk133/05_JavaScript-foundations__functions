@@ -6,7 +6,7 @@
  */
 
 /**
- * 
+ * Checks if the input value is greater than the specified threshold.
  * @param {number} value - The number to evaluate. 
  * @param {number} threshold - The threshold to compare against.
  * @returns boolean - 'true' if the value is greater than the threshold, otherwise 'false'.

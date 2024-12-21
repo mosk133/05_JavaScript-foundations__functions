@@ -19,7 +19,7 @@
  */
 
 /**
- * 
+ * Converts the input array to a string representation
  * @param {array} collection - The input array.
  * @returns string - A string representation of the array or an empty string if it's empty.
  */

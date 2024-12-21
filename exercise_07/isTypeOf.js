@@ -11,7 +11,7 @@
  */
 
 /**
- * 
+ * Checks if the type of the given value matches the specified type.
  * @param {any} value - The value to evaluate.
  * @param {'string' | 'number' | 'boolean' | 'array'} type - The type to check against.
  * @returns boolean - 'true' if the type matches, otherwise 'false'. 

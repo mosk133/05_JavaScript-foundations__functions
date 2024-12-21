@@ -18,7 +18,7 @@
  */
 
 /**
- * 
+ * Formats the sentence based on the number of words it contains.
  * @param {string} sentence - The input sentence.
  * @returns string - The original sentence or the uppercase version.
  */
