@@ -23,7 +23,7 @@
  * @returns string - The original sentence or the uppercase version.
  */
 function formatStringByWordsLength(sentence){
-    if (sentence.split(/\s+/).length >5){
+    if (sentence.split(" ").length >5){
         return sentence.toUpperCase();
     }
     return sentence.toLowerCase();
